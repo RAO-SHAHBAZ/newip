@@ -19,7 +19,7 @@ export function Header() {
   const t = translations[language].header;
   const navigation = [
     { name: t.Home, href: "/" },
-    { name: t.Free_Trail, href: "#" },
+    { name: t.Free_Trail, href: "/free-trail" },
     // { name: t.Support, href: "/about" },
     { name: t.Channels, href: "/Channels" },
     { name: t.Guides, href: "/guides" },

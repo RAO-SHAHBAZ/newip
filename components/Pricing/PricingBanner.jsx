@@ -39,10 +39,10 @@ export function PricingBanner() {
                     transition={{ duration: 0.8 }}
                 >
                     <span className="text-[#30a079] text-3xl lg:text-[50px] font-bold">
-                        {t.highlighted_text}
+                        Try It Free --
                     </span>
                     <span className="text-white text-3xl lg:text-[50px] font-bold">
-                        {" "}{t.heading}
+                        {" "}No Credit Card Required
                     </span>
                 </motion.div>
 
@@ -52,7 +52,7 @@ export function PricingBanner() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                    {t.description}
+                    Stream live channels and VOD instantly. Discover premium entertainment risk-free.
                 </motion.div>
             </div>
         </div>
