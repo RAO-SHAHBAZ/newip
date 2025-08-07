@@ -36,7 +36,7 @@ export function SimpleSteps() {
     >
       {isVisible && (
         <motion.div
-          className="relative z-10 flex flex-col items-center justify-center text-white py-12 w-full bg-gradient-to-r from-[#041610] via-[#041610]/90 to-[#30a179]/30"
+          className="relative z-10 flex flex-col items-center justify-center text-white py-12 w-full "
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}

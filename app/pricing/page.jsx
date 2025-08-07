@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from "@/components/header";
-import { PricingBanner } from "@/components/Pricing/PricingBanner";
+import { PricingHero } from "@/components/Pricing/PricingHero";
 import { Price } from "@/components/Pricing/Price";
 import { IPTVBoxes } from "@/components/IPTVBoxes";
 import { HowItWorks } from "@/components/HowItWorks";
@@ -12,7 +12,7 @@ export default function Page() {
     return (
         <main>
             <Header />
-            <PricingBanner />
+            <PricingHero />
             <Price />
             <IPTVBoxes />
             <HowItWorks />

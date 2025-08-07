@@ -24,7 +24,7 @@ export function Header() {
     { name: t.Channels, href: "/Channels" },
     { name: t.Guides, href: "/guides" },
     { name: t.Pricing, href: "/pricing" },
-    { name: t.Reseller, href: "#" },
+    { name: t.Reseller, href: "reseller" },
     { name: "language", href: "" },
     { name: t.Blog, href: "/blog" },
   ];
