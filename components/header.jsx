@@ -51,18 +51,18 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden xl:flex items-center  2xl:gap-8">
+          <nav className="hidden xl:flex items-center  2xl:gap-8 ">
             {navigation.map((item, index) => (
               item.name == "language" ? <LanguageSwitcher Language={openLanguage} openLanguage={setopenLanguage} openSupport={setopenSupport} /> :
               <Link
                 key={index}
                 href={item.href}
-                className={`${pathname == item.href ? "text-[#2EAE8C] hover:text-white" : "text-white "} transition cursor-pointer text-[17px]  font-medium w-auto text-center hover:bg-[#239579] rounded-full px-5 py-2`}
+                className={`${pathname == item.href ? "text-[#2EAE8C] hover:text-white" : "text-white "} transition cursor-pointer text-[15px]  font-medium w-auto text-center hover:bg-[#239579]  rounded-full px-6 py-2`}
               >
                 {item.name}
               </Link>
             ))}
-            <Supports Support={openSupport} openSupport={setopenSupport} openLanguage={setopenLanguage} />
+            <Supports Support={openSupport} openSupport={setopenSupport} openLanguage={setopenLanguage}/>
             
           </nav>
 

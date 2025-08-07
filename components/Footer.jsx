@@ -57,7 +57,7 @@ export function Footer() {
     <div ref={divRef} className="  flex flex-wrap lg:flex-nowrap items-center justify-center bg-gray-900 text-white">
       {isVisible &&
         <motion.div
-          className="px-6  w- xl:max-w-[1400px]  md:px-1 lg:px-1 flex flex-wrap lg:flex-nowrap justify-between  lg:gap-[100px] bg-gray-900 text-white pb-5"
+          className="px-6  xl:max-w-[1400px]  md:px-1 lg:px-1 flex flex-wrap lg:flex-nowrap justify-between  lg:gap-[10px] bg-gray-900 text-white pb-5"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
