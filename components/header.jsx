@@ -20,13 +20,13 @@ export function Header() {
   const navigation = [
     { name: t.Home, href: "/" },
     { name: t.Free_Trail, href: "/free-trail" },
+    { name: t.Pricing, href: "/pricing" },
     // { name: t.Support, href: "/about" },
     { name: t.Channels, href: "/Channels" },
     { name: t.Guides, href: "/guides" },
-    { name: t.Pricing, href: "/pricing" },
     { name: t.Reseller, href: "reseller" },
-    { name: "language", href: "" },
     { name: t.Blog, href: "/blog" },
+    { name: "language", href: "" },
   ];
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();

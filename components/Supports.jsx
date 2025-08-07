@@ -15,10 +15,10 @@ export const Supports = ({ Support, openSupport, openLanguage }) => {
     const languages = [
         { name: t.FAQ, href: "/faq" },
         { name: t.Troubleshooting, href: "/troubleshooting" },
-        { name: t.Privacy_Policy, href: "/Privacy_Policy" },
-        { name: t.Refund_Policy, href: "/Refund_Policy" },
-        { name: t.Get_in_Touch, href: "/getintouch" },
-        { name: t.Terms_of_Conditions, href: "/Terms_of_Conditions" },
+        // { name: t.Privacy_Policy, href: "/Privacy_Policy" },
+        // { name: t.Refund_Policy, href: "/Refund_Policy" },
+        // { name: t.Get_in_Touch, href: "/getintouch" },
+        // { name: t.Terms_of_Conditions, href: "/Terms_of_Conditions" },
     ];
     // Find the current language; fallback to the first language if not found
     const currentLanguage = languages.find((lang) => lang.code === language) || languages[0];
@@ -50,7 +50,7 @@ export const Supports = ({ Support, openSupport, openLanguage }) => {
             </div>
 
             <div
-                className={`option absolute left-24 top-1 xl:left-0 xl:top-14 mt-2 w-[300px] h-[340px] origin-top-right rounded-lg bg-[#1a1a1a] ${Support ? "block" : "hidden"} overflow-scroll scrollbar-hidden`}
+                className={`option absolute left-24 top-1 xl:left-0 xl:top-14 mt-2 w-[300px]  origin-top-right rounded-lg bg-[#1a1a1a] ${Support ? "block" : "hidden"} overflow-scroll scrollbar-hidden`}
                 role="menu"
                 aria-orientation="vertical"
                 aria-labelledby="menu-button">
