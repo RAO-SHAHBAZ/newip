@@ -57,7 +57,7 @@ export function BlogSectin() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.5, duration: 0.5 }} // staggered animation
           >
-            <div className="bg-[#1b1b1b] rounded-xl p-4 shadow-lg w-[350px] lg:w-[430px] 2xl:w-[470px] cursor-pointer transition-all duration-200 hover:scale-105">
+            <div className="bg-[#1b1b1b] rounded-xl p-4 shadow-lg w-[310px] lg:w-[430px] 2xl:w-[470px] cursor-pointer transition-all duration-200 hover:scale-105">
               <motion.div
                 className="relative"
                 transition={{ type: "spring", stiffness: 300 }}

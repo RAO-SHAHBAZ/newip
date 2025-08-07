@@ -148,7 +148,7 @@ export function Footer() {
                 <Image src="./Telegram.png" alt="Location" className="object-contain w-10 h-auto" width={0} height={0} />
                 <p className="text-lg">Telegram: Join us for LIVE updates</p>
               </div>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 ">
                 <Image src="./Email.png" alt="Email" className="object-contain w-10 h-auto" width={0} height={0} />
                 <p className="text-lg">expresstv@hushmail.me</p>
               </div>
