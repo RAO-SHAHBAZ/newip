@@ -304,8 +304,8 @@ const English = {
     subheading: 'Easy to Navigate by Category!"',
   },
   MoviesSection_section: {
-    title: "MOVIES",
-    heading: "Blockbusters to Classics - All Your Movies in One Place!",
+    title: "SPORTS",
+    heading: "Championships to Highlights – All Your Sports in One Place!",
   },
   Count_section: {
     heading: "Channels - Uncover a World of Entertainment Options!",

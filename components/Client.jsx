@@ -89,7 +89,7 @@ export function Client() {
                 {/* Slide Content with Animation */}
                 <motion.div
                     key={currentSlide}
-                    className="flex      lg:flex-row items-center justify-center gap-10 md:gap-8 lg:gap-12 px-5 h-[400px] lg:h-[450px]  overflow-hidden cursor-pointer"
+                    className="flex flex-col lg:flex-row items-center justify-center gap-10 md:gap-8 lg:gap-12 px-5 h-[310px] lg:h-[450px]  overflow-hidden cursor-pointer"
                     initial={{ x: currentSlide * 1000, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     exit={{ x: -1000 * currentSlide, opacity: 0 }}
