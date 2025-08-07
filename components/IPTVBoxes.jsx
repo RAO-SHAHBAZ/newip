@@ -146,61 +146,88 @@ export function IPTVBoxes() {
       </motion.div>}
 
       {/* Website Troubleshooting Section */}
-      <motion.div
-        className="max-w-4xl mx-auto mt-16 px-8"
-        initial={{ y: 50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 1.2, duration: 0.8 }}
-      >
-        <h2 className="text-3xl font-bold text-white text-center mb-8">
-          Website Troubleshooting Steps
-        </h2>
-        
-        <p className="text-gray-300 text-center mb-8 leading-relaxed">
-          Are you having trouble with a particular website? Trouble with every website? Here's a list of general purpose troubleshooting steps that you can take which might help. They're not going to fix every problem, but they're some good 'First steps' to take and they might just fix your problem straight away.
-        </p>
+  {/* Best IPTV Subscription Section */}
+<motion.div
+  className="max-w-[1400px] mx-auto mt-16 px-8"
+  initial={{ y: 50, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ delay: 1.2, duration: 0.8 }}
+>
+  <h2 className="text-3xl font-bold text-white text-center mb-8">
+    Best IPTV Subscription in the U.S. – Why Choose Express IPTV
+  </h2>
 
-        <div className="space-y-6">
-          {/* Step 1 */}
-          <motion.div
-            className="bg-[#2d2d2d] rounded-lg p-6"
-            initial={{ x: -50, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 1.4, duration: 0.8 }}
-          >
-            <h3 className="text-xl font-bold text-[#30A179] mb-3">1. Refresh the page</h3>
-            <p className="text-gray-300 leading-relaxed">
-              Sometimes when you load a webpage, things just don't work quite right - for too many reasons to list, a page might just simply not load correctly the first time. So the first thing to try is simply reloading the page. Forcing a complete refresh of a page tells your web browser to try downloading and displaying everything again.
-            </p>
-          </motion.div>
+  <p className="text-gray-300 leading-relaxed mb-6">
+    In a world where digital entertainment rules, finding a reliable, high-quality IPTV subscription can make all the difference. Express IPTV is redefining the way Americans stream TV—offering unlimited entertainment, ultra-fast servers, and unbeatable value. If you're looking for the best IPTV service in the USA, look no further than Express IPTV.
+  </p>
 
-          {/* Step 2 */}
-          <motion.div
-            className="bg-[#2d2d2d] rounded-lg p-6"
-            initial={{ x: -50, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 1.6, duration: 0.8 }}
-          >
-            <h3 className="text-xl font-bold text-[#30A179] mb-3">2. Refresh the page</h3>
-            <p className="text-gray-300 leading-relaxed">
-              Sometimes when you load a webpage, things just don't work quite right - for too many reasons to list, a page might just simply not load correctly the first time. So the first thing to try is simply reloading the page. Forcing a complete refresh of a page tells your web browser to try downloading and displaying everything again.
-            </p>
-          </motion.div>
+  <h3 className="text-2xl font-semibold text-[#30A179] mb-4">
+    Why Express IPTV Is the Top IPTV Subscription Provider in the U.S.
+  </h3>
 
-          {/* Step 3 */}
-          <motion.div
-            className="bg-[#2d2d2d] rounded-lg p-6"
-            initial={{ x: -50, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 1.8, duration: 0.8 }}
-          >
-            <h3 className="text-xl font-bold text-[#30A179] mb-3">3. Refresh the page</h3>
-            <p className="text-gray-300 leading-relaxed">
-              Sometimes when you load a webpage, things just don't work quite right - for too many reasons to list, a page might just simply not load correctly the first time. So the first thing to try is simply reloading the page. Forcing a complete refresh of a page tells your web browser to try downloading and displaying everything again.
-            </p>
-          </motion.div>
-        </div>
-      </motion.div>
+  <p className="text-gray-300 leading-relaxed mb-4">
+    When comparing IPTV providers, it’s essential to look at content quality, reliability, streaming performance, and affordability. Express IPTV leads with excellence in every category:
+  </p>
+
+  <ul className="list-disc list-inside text-gray-300 mb-8 space-y-3">
+    <li><strong>45,000+ Live Channels:</strong> Stream everything from local U.S. news and sports to international programming in multiple languages. Whether you're into NFL, NBA, MLB, or niche global networks—we’ve got it all.</li>
+    <li><strong>Over 60,000 Movies & TV Shows On-Demand:</strong> Get instant access to the newest blockbusters, trending series, classics, and documentaries. No need to pay extra for Netflix or Hulu.</li>
+    <li><strong>4K, Full HD & HD Streaming:</strong> Watch your favorite content in the best possible quality. With our ultra-stable servers, you’ll enjoy zero buffering and smooth playback every time.</li>
+    <li><strong>Fast Activation & Easy Setup:</strong> Get started in minutes. No long waits or complicated installations. Just plug, play, and stream.</li>
+    <li><strong>Works on All Devices:</strong> Use Express IPTV on Amazon Firestick, Android TV, Smart TVs, iOS, Windows, MAG Boxes, and more. Total flexibility, anytime and anywhere.</li>
+    <li><strong>Affordable Monthly Plans:</strong> Starting from just $14.99/month, you get premium streaming without the high cable bill.</li>
+    <li><strong>Dedicated U.S.-Based Support:</strong> Our expert support team is available 24/7 to assist you with setup, troubleshooting, and guidance.</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold text-[#30A179] mb-4">
+    Compatible with All Major IPTV Apps
+  </h3>
+
+  <ul className="list-disc list-inside text-gray-300 mb-8 space-y-3">
+    <li><strong>TiviMate:</strong> Perfect EPG interface and sleek layout</li>
+    <li><strong>IPTV Smarters Pro:</strong> Multi-screen support and user-friendly features</li>
+    <li><strong>XCIPTV Player:</strong> Advanced settings and dynamic playback</li>
+    <li><strong>GSE Smart IPTV:</strong> Supports multiple formats and custom playlists</li>
+    <li><strong>Perfect Player IPTV:</strong> Great for managing EPGs and M3U playlists</li>
+    <li><strong>Kodi:</strong> Integrates easily with Express IPTV for a complete media center setup</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold text-[#30A179] mb-4">
+    Stream on the Best Devices – 100% Compatible with Express IPTV
+  </h3>
+
+  <ul className="list-disc list-inside text-gray-300 mb-8 space-y-3">
+    <li>Amazon Firestick / Fire TV</li>
+    <li>Android TV Boxes (Nvidia Shield, X96 Max, etc.)</li>
+    <li>Apple TV & iOS Devices</li>
+    <li>MAG Devices & Formuler Z Boxes</li>
+    <li>Smart TVs (Samsung, LG, Sony, Vizio)</li>
+    <li>Windows & Mac PCs</li>
+    <li>Chromecast with Google TV</li>
+    <li>Roku (with compatible apps)</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold text-[#30A179] mb-4">
+    Why Express IPTV Is the Best IPTV Service in the U.S.
+  </h3>
+
+  <p className="text-gray-300 leading-relaxed mb-6">
+    With Express IPTV, you’re not just buying a subscription—you’re upgrading your entire entertainment experience. Our premium channel lineup, on-demand library, crystal-clear streaming quality, and rock-solid server uptime put us miles ahead of typical IPTV providers.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed mb-6">
+    Whether you're a sports fanatic, a movie buff, or just looking to cut the cord and save money, Express IPTV delivers the ultimate solution.
+  </p>
+
+  <h3 className="text-2xl font-semibold text-[#30A179] mb-4">
+    Start Streaming with Express IPTV Today
+  </h3>
+
+  <p className="text-gray-300 leading-relaxed">
+    No contracts. No hidden fees. Just high-performance IPTV streaming designed for American viewers. Ready to make the switch? Get started with Express IPTV and unlock a world of endless entertainment today.
+  </p>
+</motion.div>
+
     </div>
   );
 }

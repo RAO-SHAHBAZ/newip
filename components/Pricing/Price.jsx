@@ -52,10 +52,10 @@ export function Price() {
         transition={{ delay: 0.5, duration: 1 }}
       >
         <div className="w-full max-w-4xl text-center flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-center">
-            <span className="text-[#30a079]">{t.highlighted_text}</span>
-            <span className="text-white"> {t.heading}</span>
-          </h1>
+    <h1 className="text-4xl md:text-5xl font-bold text-center">
+  <span className="text-[#30a079] mb-2 inline-block">{t.highlighted_text}</span>
+  <span className="text-white mt-2 inline-block"> {t.heading}</span>
+</h1>
           <p className="mt-8 text-white text-lg md:text-xl font-normal text-center max-w-4xl">
             {t.description}
           </p>
@@ -64,7 +64,7 @@ export function Price() {
 
         
         <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 mt-12">
-          {["Scandinavian Package", "English Pakage", "Arabic Package"].map((item, index) => (
+          {["1 Month Package", "3 Month Package", "6 Month Package" ,"1 Year Package"].map((item, index) => (
             <div key={index} className={`px-6 py-3 rounded-full text-white text-lg font-medium flex items-center justify-center 
               ${index === Price ? "bg-[#30A179] hover:text-white" : "bg-[#2d2d2d] hover:bg-[#30A179] hover:text-white"} 
               transition-all cursor-pointer border border-[#30A179]/30`} 
@@ -237,7 +237,7 @@ export function Price() {
       >
         <div className="mb-12 flex flex-col items-center justify-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8 text-center">
-            <span className="text-[#30A179]">Scandinavian IPTV Package</span>(Sweden, Norway, Denmark, Finland)
+            <span className="text-[#30A179]">Scandinavian </span>(Sweden, Norway, Denmark, Finland)
           </h2>
           <p className="text-lg md:text-xl text-white/80 font-normal max-w-4xl mx-auto mb-12 text-center">
           Access Premium Scandinavian Content – The Best of Nordic Entertainment, Anytime, Anywhere
@@ -245,7 +245,7 @@ export function Price() {
         </div>
         
         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8">
-          {["Scandinavian Package", "English Pakage", "Arabic Package"].map((item, index) => (
+          {["1 Month Package", "3 Month Package", "6 Month Package" ,"1 Year Package"].map((item, index) => (
             <div key={index} className={`px-8 py-4 rounded-full text-white text-lg font-medium flex items-center justify-center 
               ${index === Price ? "bg-[#30A179] hover:text-white" : "bg-[#2d2d2d] hover:bg-[#30A179] hover:text-white"} 
               transition-all cursor-pointer border border-[#30A179]/30`} 
@@ -426,7 +426,7 @@ export function Price() {
         </div>
         
         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8">
-          {["Scandinavian Package", "English Pakage", "Arabic Package"].map((item, index) => (
+          {["1 Month Package", "3 Month Package", "6 Month Package" ,"1 Year Package"].map((item, index) => (
             <div key={index} className={`px-8 py-4 rounded-full text-white text-lg font-medium flex items-center justify-center 
               ${index === Price ? "bg-[#30A179] hover:text-white" : "bg-[#2d2d2d] hover:bg-[#30A179] hover:text-white"} 
               transition-all cursor-pointer border border-[#30A179]/30`} 

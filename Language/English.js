@@ -134,10 +134,10 @@ const English = {
     button_text: "Buy Now ",
   },
   pricing_section: {
-    heading: "That Suits For You!",
-    highlighted_text: "Choose the Plan",
+    heading: "(USA,Canada,UK)",
+    highlighted_text: "English IPTV Package",
     description:
-      "Select Your Premium IPTV Subscription Plan and Unlock a Universe of Entertainment.",
+      "Stream the Best of English Entertainment – Your Favorite Channels and Shows, Available Anytime",
     one_Month: {
       heading: "1 Month Package",
       plan_type: "Basic Plan",
