@@ -6,12 +6,12 @@ import Image from "next/image";
 // Array of supported languages
 const languages = [
   { code: "en", name: "English" },
-  { code: "fr", name: "Français" },
-  { code: "es", name: "Spanish" },
+  { code: "sw", name: "Swedish" },
+  { code: "nw", name: "Norwegian" },
   { code: "de", name: "German" },
-  { code: "it", name: "Italian" },
-  { code: "nl", name: "Dutch" },
-  { code: "zh", name: "Chinese" }
+  { code: "fi", name: "Finnish" },
+  // { code: "nl", name: "Dutch" },
+  // { code: "zh", name: "Chinese" }
 ];
 
 export const LanguageSwitcher = ({ Language, openLanguage, openSupport }) => {
@@ -47,7 +47,7 @@ export const LanguageSwitcher = ({ Language, openLanguage, openSupport }) => {
       </div>
 
       <div
-        className={`option absolute left-28 top-1 xl:left-0 xl:top-14 mt-2 w-[200px] h-[340px] origin-top-right rounded-lg bg-[#1a1a1a] ${Language ? "block" : "hidden"} overflow-scroll scrollbar-hidden`}
+        className={`option absolute left-28 top-1 xl:left-0 xl:top-14 mt-2 w-[200px]  origin-top-right rounded-lg bg-[#1a1a1a] ${Language ? "block" : "hidden"} overflow-scroll scrollbar-hidden`}
         role="menu"
         aria-orientation="vertical"
         aria-labelledby="menu-button"
