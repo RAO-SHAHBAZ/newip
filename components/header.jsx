@@ -57,7 +57,7 @@ export function Header() {
               <Link
                 key={index}
                 href={item.href}
-                className={`${pathname == item.href ? "text-[#2EAE8C] hover:text-white" : "text-white "} transition cursor-pointer text-[15px]  font-medium w-auto text-center hover:bg-[#239579]  rounded-full px-6 py-2`}
+                className={`${pathname == item.href ? "text-[#2EAE8C] hover:text-white" : "text-white "} transition cursor-pointer text-[17px]  font-medium  text-center hover:bg-[#239579]  rounded-full px-6 py-2`}
               >
                 {item.name}
               </Link>
